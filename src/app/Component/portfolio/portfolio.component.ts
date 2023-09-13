@@ -10,6 +10,10 @@ export class PORTFOLIOComponent {
   posterpath: string = "assets/imges/poert1.png";
   showDiv: boolean = false;
   showImage(event:any) {
+    if(event.target.tagName=="I"){
+      this.posterpath=event.target.parentElement.previousSibling.src;
+      this.showDiv = true;
+    }
     if(event.target.previousSibling.tagName == "IMG")
     {
       this.posterpath=event.target.previousSibling.src;
