@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.twolines .line {
+  width: 150px;
+  height: 4px;
+  background-color: white;
+  margin: 7px;
+}
+
+img {
+  width: 250px;
+}

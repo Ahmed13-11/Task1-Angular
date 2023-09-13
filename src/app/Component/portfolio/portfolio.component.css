@@ -1,0 +1,39 @@
+.twolines .line {
+  width: 150px;
+  height: 4px;
+  background-color: black;
+  margin: 7px;
+}
+
+.contain {
+  padding-top: 100px;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.opact {
+  opacity: 0;
+  top: 0;
+  background-color: rgba(162, 139, 139,0.8);
+  transition: 1s all;
+  border-radius: 8px;
+}
+
+.first:hover .opact {
+  opacity: 1;
+}
+
+#fixed-box{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: rgba(0,0,0,0.7);
+  }
+  #parent{
+  width:40%;
+  }

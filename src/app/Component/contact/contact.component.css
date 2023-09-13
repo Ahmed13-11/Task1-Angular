@@ -1,0 +1,14 @@
+.twolines .line {
+  width: 150px;
+  height: 4px;
+  background-color: black;
+  margin: 7px;
+}
+
+.contain {
+  padding-top: 100px;
+}
+
+input {
+  margin: 20px 0;
+}

@@ -1,0 +1,71 @@
+<div class="portfolio text-black">
+  <div class="contain pb-4">
+    <div class="cont w-50 m-auto text-center">
+      <h1>PORTFOLIO COMPONENT</h1>
+      <div class="twolines d-flex pb-3 justify-content-center">
+        <div class="line"></div>
+        <i class="fa-solid fa-star" style="color: black;"></i>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="aboutUs">
+      <div class="container">
+        <div class="row g-2" (click)="showImage($event)">
+          <div class="canc col-4">
+            <div class="first position-relative">
+              <img src="assets/imges/poert1.png" alt="photo">
+              <div class="opact d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                <i class="fa-solid fa-plus fa-5x" style="color: white;"></i>
+              </div>
+            </div>
+          </div>
+          <div class="canc col-4">
+            <div class="first position-relative">
+              <img src="assets/imges/port2.png" alt="photo">
+              <div class="opact d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                <i class="fa-solid fa-plus fa-5x" style="color: white;"></i>
+              </div>
+            </div>
+          </div>
+          <div class="canc col-4">
+            <div class="first position-relative">
+              <img src="assets/imges/port3.png" alt="photo">
+              <div class="opact d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                <i class="fa-solid fa-plus fa-5x" style="color: white;"></i>
+              </div>
+            </div>
+          </div>
+          <div class="canc col-4">
+            <div class="first position-relative">
+              <img src="assets/imges/poert1.png" alt="photo">
+              <div class="opact d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                <i class="fa-solid fa-plus fa-5x" style="color: white;"></i>
+              </div>
+            </div>
+          </div>
+          <div class="canc col-4">
+            <div class="first position-relative">
+              <img src="assets/imges/port2.png" alt="photo">
+              <div class="opact d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                <i class="fa-solid fa-plus fa-5x" style="color: white;"></i>
+              </div>
+            </div>
+          </div>
+          <div class="canc col-4">
+            <div class="first position-relative">
+              <img src="assets/imges/port3.png" alt="photo">
+              <div class="opact d-flex justify-content-center align-items-center position-absolute w-100 h-100">
+                <i class="fa-solid fa-plus fa-5x" style="color: white;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="fixed-box" [ngClass]="showDiv?'d-flex':'d-none'" (click)="hideImage($event)" class=" justify-content-center align-items-center vh-100">
+      <div id="parent" class="bg-danger position-relative">
+          <img [src]="posterpath" id="inner-img" class="w-100"/>
+      </div>
+    </div>
+  </div>
+</div>
